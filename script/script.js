@@ -82,9 +82,12 @@ function createSkillsFromJSON() {
                     role="${item.link ? "link" : "group"}"
                     tabindex="${item.link ? "0" : "-1"}">
                         <div class="card-body">
-                            <img
+                            <img 
                              src="./images/${item.image}"
-                             alt= "skill-image" />
+                             class="skill-img"
+                             alt= "skill-image" 
+                             width="382"
+                             height="150"/>
                             <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>

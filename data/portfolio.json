@@ -1,35 +1,35 @@
 [
     {
-        "image": "booki.png",
+        "image": "booki.webp",
         "title": "Booki",
         "text": "Ma mission consistait à développer le site Booki en HTML et CSS, en appliquant une structure sémantique et les bonnes pratiques du développement web.",
         "link": "https://youtu.be/s3niXe-lS3c"
     },
     {
-        "image": "print-it.png",
+        "image": "print-it.webp",
         "title": "Print-it",
         "text": "Ma mission sur le site Print It consistait à intégrer un carrousel dynamique en JavaScript pour présenter les contenus de manière interactive.",
         "link": "https://github.com/sahroura47/Print-It"
     },
     {
-        "image": "image3.png",
+        "image": "KASA.webp",
         "title": "KASA",
         "text": "Dans le cadre de la refonte complète du site Kasa, ma mission était de développer le site en JavaScript et React, en reprenant les nouvelles maquettes fournies et en modernisant l’interface utilisateur.",
         "link": "https://www.youtube.com/watch?v=QBk2a6ELQDo"
     },{
-        "image": "sophie-Bruel.png",
+        "image": "sophie-Bruel_412x158.webp",
         "title": "Sophie Bruel",
         "text": "J’ai développé le site Sophie Bruel avec React et JavaScript, en créant une interface moderne et dynamique.",
         "link": "https://youtu.be/f9XOQH1_kIU"
     },
     {
-        "image": "eco-bliss-bath1.png",
+        "image": "eco-bliss-bath1_412x158.webp",
         "title": "Eco-Bliss-Bath",
         "text": "Ma mission était de conçevoir des tests automatisés et des tests d'API pour garantir une expérience fluide pour l'utilisateur",
         "link": "https://youtu.be/_aqNy0V1gk4"
     },
      {
-        "image": "TOMSEN.png",
+        "image": "TOMSEN.webp",
         "title": "TOMSEN",
         "text": "Ma mission était de mener une stratégie de test d'une application de gestion de finance avec la concetion de cahier de recette",
         "link": "https://youtu.be/gFaL8BD2ko8"

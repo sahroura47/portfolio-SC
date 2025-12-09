@@ -28,14 +28,20 @@
 }
 
 .logo-container {
+    display: flex;
     width: 40px;
     height: 40px;
 
 }
 
 .logo {
+    display: block;
     width: 40px;
-    height: 40px;
+    height: auto;
+    aspect-ratio: 885 / 627;
+    background-color: #fff;
+    object-fit: cover;
+
 }
 
 .nav-link {
@@ -126,6 +132,13 @@
     color: #22c55e;
     font-size: 0.6rem;
     animation: blinkDot 1s infinite;
+}
+
+.skillsText img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 382 / 150;
 }
 
 @keyframes blinkDot {
