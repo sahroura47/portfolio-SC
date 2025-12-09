@@ -3,7 +3,7 @@
         "image": "booki.png",
         "title": "Booki",
         "text": "Ma mission consistait à développer le site Booki en HTML et CSS, en appliquant une structure sémantique et les bonnes pratiques du développement web.",
-        "link": "assets/booki.mp4"
+        "link": "https://youtu.be/s3niXe-lS3c"
     },
     {
         "image": "print-it.png",
@@ -15,23 +15,23 @@
         "image": "image3.png",
         "title": "KASA",
         "text": "Dans le cadre de la refonte complète du site Kasa, ma mission était de développer le site en JavaScript et React, en reprenant les nouvelles maquettes fournies et en modernisant l’interface utilisateur.",
-        "link": "assets/vidéo-KASA.mp4"
+        "link": "https://www.youtube.com/watch?v=QBk2a6ELQDo"
     },{
         "image": "sophie-Bruel.png",
         "title": "Sophie Bruel",
         "text": "J’ai développé le site Sophie Bruel avec React et JavaScript, en créant une interface moderne et dynamique.",
-        "link": "assets/Sophie-Bruel.mp4"
+        "link": "https://youtu.be/f9XOQH1_kIU"
     },
     {
         "image": "eco-bliss-bath1.png",
         "title": "Eco-Bliss-Bath",
         "text": "Ma mission était de conçevoir des tests automatisés et des tests d'API pour garantir une expérience fluide pour l'utilisateur",
-        "link": "assets/eco-bliss-bath.mp4"
+        "link": "https://youtu.be/_aqNy0V1gk4"
     },
      {
         "image": "TOMSEN.png",
         "title": "TOMSEN",
         "text": "Ma mission était de mener une stratégie de test d'une application de gestion de finance avec la concetion de cahier de recette",
-        "link": "assets/TOMSEN.mp4"
+        "link": "https://youtu.be/gFaL8BD2ko8"
     }
 ]
