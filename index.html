@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Portfolio Sahar Cht</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Portfolio de Sahar Cht - développeur web junior, testeur logiciel, présentant mes compétences, projets et contact.">
+
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <div class="sahar-logo">
+                <span class="logo-container">
+                    <img class="logo" src="./images/sahar-logo.png" alt="sahar logo">
+                </span>
+                <a class="navbar-brand" href="#">Sahar Chtourou</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contactez-moi</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h1 class="hero_title">Salut, moi c'est Sahar</h1>
+                    <p class="hero_desc">Je suis développeur web junior/ tester logiciel QA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <div class="row mt-4 ">
+                <div class="col-lg-4  img-fluid">
+                    <img src="images/sahar-image-desktop.webp" width="300" height="400" class="imageAboutPage img-fluid"
+                        alt="portfolio image">
+                    <p class="open-to-work">
+                        <i class="fa-solid fa-circle open-dot" aria-hidden="true"></i>
+                        Open to work
+                    </p>
+                    <h2 class="text-start w-100">QA Junior | Tests fonctionnels & E2E (Cypress) | JS / React</h2>
+                    <div class="cv-action">
+                        <a href="./assets/cv.pdf" download class="btn btn-light">
+                            Télécharger CV
+                            <i class="fa-solid fa-download" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 column justify-content-center text-fluid">
+                    <p> Testeuse QA passionnée par l’amélioration continue de la qualité produit.Expérience confirmée
+                        dans la vérification fonctionnelle, la fiabilité des parcours utilisateurs et l’intégration de
+                        solutions techniques au sein d’équipes agiles.
+
+                    </p>
+                    <div class="row mt-3">
+                        <p> Je m’appuie sur une approche structurée et orientée utilisateur pour détecter les anomalies,
+                            prévenir les régressions et contribuer à la stabilité des applications. À l’aise avec les
+                            tests fonctionnels et E2E, notamment avec Cypress, je collaborerai étroitement avec les
+                            développeurs et les PO pour assurer des livraisons fluides, fiables et alignées avec les
+                            besoins métier.
+                            Curieuse et impliquée, je m’intéresse aussi au développement web (JavaScript / React) afin
+                            de mieux comprendre les contraintes techniques et renforcer la qualité dès la conception.
+                            <br><br> Mon objectif : garantir une expérience utilisateur solide, claire et sans friction,
+                            tout en participant activement à l’amélioration continue des produits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center">Mes compétences</h2>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h2 class="text-center">Mes projets</h2>
+            <div id="portfolioCarousel" class="caroussel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner" id="portfolioCarouselInner">
+                </div>
+            </div>
+            <button class="carousel-move-previous" type="button" data-bs-target="#portfolioCarousel"
+                data-bs-slide="prev" aria-label="Slide précédent">
+                <span class="carousel-move-previous-icon"></span>
+                <i class="fa-solid fa-arrow-left fa-2x text-dark aria-hidden="true></i>
+            </button>
+            <button class="carousel-move-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next"
+                aria-label="Slide suivant">
+                <span class="carousel-move-next"></span>
+                <i class="fa-solid fa-arrow-right fa-2x text-dark" aria-hidden="true"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h2 class="text-center">Contactez-moi</h2>
+            <div class="row">
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa fa-solid fa-phone fa-4x" aria-hidden="true"></i>
+                    <h3>Téléphone</h3>
+                    <p>06-26-43-93-64</p>
+                </div>
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa fa-regular fa-envelope fa-4x" aria-hidden="true"></i>
+                    <h3>Adresse email</h3>
+                    <p>sahar.chtouoru202@gmail.com</p>
+                </div>
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa fa-brands fa-linkedin-in fa-4x" aria-hidden="true"></i>
+                    <h3>LinkedIn</h3>
+                    <a class="linkedin_link" href="https://www.linkedin.com/in/sahar-chtourou-799409125/"
+                        target="_blank" rel="noopener noreferrer"> Lien LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- load javascript after loading all html content -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
